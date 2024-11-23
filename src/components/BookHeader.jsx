@@ -13,8 +13,15 @@ const Book = () => {
 
   return (
     <H2.Container>
-      <H2.Hanger onClick={HangerPage}>
-        <img id="Hanger" src={Hanger}></img>
+      <H2.Hanger>
+        <div id="Hanger">
+          <img
+            src={Hanger}
+            onClick={HangerPage}
+            alt="Back Button"
+            style={{ height: "30px", width: "35px" }}
+          />
+        </div>
       </H2.Hanger>
       <H2.MingleLogo>
         <img id="MingleLogo" src={MingleLogo}></img>

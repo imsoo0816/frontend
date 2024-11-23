@@ -49,11 +49,6 @@ const Store = () => {
     { id: "Drum", src: Drum, price: 500, category: "아이템" },
     { id: "Sword", src: Sword, price: 500, category: "아이템" },
     { id: "Snow", src: Snow, price: 500, category: "아이템" },
-    { id: "Minglewhite", src: Minglewhite, price: 500, category: "별" },
-    { id: "Minglegreen", src: Minglegreen, price: 500, category: "별" },
-    { id: "Mingleyellow", src: Mingleyellow, price: 500, category: "별" },
-    { id: "Mingleviolet", src: Mingleviolet, price: 500, category: "별" },
-    { id: "Minglered", src: Minglered, price: 500, category: "별" },
     { id: "Aurapink", src: Aurapink, price: 500, category: "오로라" },
     { id: "Auragreen", src: Auragreen, price: 500, category: "오로라" },
     { id: "Aurayellow", src: Aurayellow, price: 500, category: "오로라" },
@@ -95,8 +90,8 @@ const Store = () => {
 
   const itemCategories = {
     아이템: items.filter((item) => item.category === "아이템"),
-    별: items.filter((item) => item.category === "별"),
     오로라: items.filter((item) => item.category === "오로라"),
+    행성: items.filter((item) => item.category === "행성"),
   };
 
   return (

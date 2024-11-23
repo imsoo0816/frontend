@@ -6,7 +6,7 @@ export const Container = styled.div`
   width: 393px;
 
   height: 852px;
-  background-color: #d9d9d9;
+  background-color: #f9f9f9;
 
   padding: 0;
   box-sizing: border-box;
@@ -58,7 +58,7 @@ export const BottomBackground = styled.div`
 
 export const BottomBar = styled.div`
   position: fixed;
-  top: 545px;
+  top: 425px;
   width: 96px;
   height: 5px;
   img {
