@@ -16,12 +16,6 @@ import Drum from "../assets/drum.png";
 import Sword from "../assets/sword.png";
 import Snow from "../assets/snow.png";
 
-import Minglewhite from "../assets/minglelogowhite0.png";
-import Minglegreen from "../assets/minglelogogreen.png";
-import Mingleyellow from "../assets/minglelogoyellow.png";
-import Mingleviolet from "../assets/minglelogoviolet.png";
-import Minglered from "../assets/minglelogored.png";
-
 import Aurapink from "../assets/aurapink.png";
 import Auragreen from "../assets/auragreen.png";
 import Aurayellow from "../assets/aurayellow.png";
